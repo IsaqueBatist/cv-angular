@@ -1,11 +1,18 @@
 
-.cv-container{
+.resume{
   display: flex;
   flex-direction: column;
   gap: 10px;
   width: 50%;
 
   align-items: flex-start;
+}
+
+.cv-container{
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
 }
 
 .cv-header{
@@ -27,6 +34,7 @@
   color: white;
   background-color: #404040;
   width: 50%;
+  height: fit-content;
   padding: 20px;
   left: 40px;
   transform: translateY(-150px);
